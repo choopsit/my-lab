@@ -1,0 +1,11 @@
+[user]
+indicatorColor=rgba(145,174,210,0.91)
+inactiveColor=rgba(85,89,96,0.758389)
+indicatorStyle=2
+inactiveIndicatorStyle=2
+indicatorColorFromTheme=false
+keyComboActive=true
+onlyDisplayVisible=true
+showPreviews=true
+middleButtonBehavior=1
+pinned=thunar;com.brave.Browser;steam;terminator;

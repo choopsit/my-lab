@@ -1,0 +1,79 @@
+[global_config]
+  tab_position = bottom
+  scroll_tabbar = True
+  inactive_color_offset = 0.8541666666666666
+  link_single_click = True
+  new_tab_after_current_tab = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.9
+    background_type = transparent
+    font = Noto Mono 11
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#282828:#cc241d:#98971a:#d79921:#1f6a6e:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    login_shell = True
+    use_theme_colors = True
+    bold_is_bright = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#943b2f"
+    title_receive_bg_color = "#539a91"
+  [[nordish]]
+    background_color = "#1f2831"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_fg_color = "#36333f"
+    cursor_bg_color = "#c1d1e6"
+    cursor_color_default = False
+    font = Noto Mono 11
+    foreground_color = "#cbd0d6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#4b4952:#a94664:#7ea979:#c5c380:#709ab2:#ceaed1:#7fb4b4:#bbbfc3:#656074:#eb338b:#6fb376:#baac66:#738d9c:#af80ad:#399d8c:#96989a"
+    login_shell = True
+    use_theme_colors = True
+    bold_is_bright = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#b1445e"
+    title_receive_bg_color = "#7997be"
+  [[gruvbox]]
+    background_color = "#282828"
+    background_darkness = 0.9
+    background_type = transparent
+    font = Noto Mono 11
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#282828:#cc241d:#98971a:#d79921:#1f6a6e:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    login_shell = True
+    use_theme_colors = True
+    bold_is_bright = True
+    title_hide_sizetext = True
+    title_transmit_bg_color = "#943b2f"
+    title_receive_bg_color = "#539a91"
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 975:34
+      maximised = False
+      fullscreen = False
+      size = 935, 1000
+      title = choops@mrchat: ~
+      last_active_term = 2abddf77-72d3-4f82-8e42-959abb663aa3
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 2abddf77-72d3-4f82-8e42-959abb663aa3
+[plugins]
