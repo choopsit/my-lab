@@ -8,13 +8,13 @@ Script installing my destop conf for any PC/VM I use based on debian stable (13/
 
 - Default desktop xfce4 (can choose Gnome or KDE but conf are not ready yet for these)
     - Default video-player: Clapper (replacing parole)
-    - Default gtk-theme: Colloid-Gruvbox-Dark (source: https://github.com/vinceliuice/Colloid-gtk-theme)
-    - Default icon-theme: Gruvbox-Plus-Dark (source: https://github.com/SylEleuth/gruvbox-plus-icon-pack)
+    - Default gtk-theme: Colloid-Gruvbox-Dark - https://github.com/vinceliuice/Colloid-gtk-theme
+    - Default icon-theme: Gruvbox-Plus-Dark - source: https://github.com/SylEleuth/gruvbox-plus-icon-pack
     - Default curors-theme: Breeze
 - Default terminal-emulator: Terminator
-- Default web-browser: Brave
+- Default web-browser: Brave - https://brave.com/
 - Image-editor: Gimp
-- Audio-tools: Sound-juicer, soudconverter
+- Audio-tools: Sound-juicer, soundconverter
 - Games: Steam, Supertuxkart
 
 ### deploy\_systools.sh
@@ -36,6 +36,6 @@ Script deploying my cli-tools (included in install\_desktop.sh)
 
 Install servers based on stable (13/trixie)
 
-- base: just basic tools installation (curl, git, ssh, vim) and a minimal vim config
-- jellyfin: web-mediacenter for my lan
+- base: just basic tools (curl, git, openssh-server, vim) and a minimal vim config
+- jellyfin: web-mediacenter for my lan - https://jellyfin.org/
 
