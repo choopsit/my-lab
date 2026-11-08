@@ -101,9 +101,3 @@ install_base
 
 [[ $my_server != "base" ]] && (. "$scriptpath/templates/$my_server.sh")
 
-if (whiptail --yesno "Reboot and enjoy ?" 8 78); then
-    reboot
-else
-    exit 0
-fi
-
