@@ -44,8 +44,10 @@ if [[ $(lsb_release -sc) != $debian_version ]] ; then
 fi
 
 # Install prerequisites
-apt update
-apt instal -y gnupg
+if ! (dpkg -l | grep -q "^ii  gnupg "); then
+    apt update
+    apt install -y gnupg
+fi
 
 # Add jellyfin repo
 gpgkey_url="https://repo.jellyfin.org/jellyfin_team.gpg.key"
