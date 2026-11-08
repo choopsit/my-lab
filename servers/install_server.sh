@@ -78,12 +78,6 @@ if [[ $(whoami) != root ]]; then
     exit 1
 fi
 
-# Check users permissions
-if [[ $(whoami) != root ]]; then
-    echo "ERR: Need higher privileges"
-    exit 1
-fi
-
 # Check debian version
 if [[ $(lsb_release -sc) != $debian_version ]] ; then
     echo "ERR: You're not using debian $debian_version"
