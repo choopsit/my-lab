@@ -39,7 +39,7 @@ fi
 
 # Check debian version
 if [[ $(lsb_release -sc) != $debian_version ]] ; then
-    echo "ERR: You're not debian $debian_version"
+    echo "ERR: You're not using debian $debian_version"
     exit 1
 fi
 

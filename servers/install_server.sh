@@ -84,6 +84,12 @@ if [[ $(whoami) != root ]]; then
     exit 1
 fi
 
+# Check debian version
+if [[ $(lsb_release -sc) != $debian_version ]] ; then
+    echo "ERR: You're not using debian $debian_version"
+    exit 1
+fi
+
 # Choose server function to install
 srv_list=(
     "base"
