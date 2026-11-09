@@ -3,5 +3,5 @@ Types: deb
  Suites: trixie
  Components: main
  Architectures: amd64
- Signed-By: /etc/apt/keyrings/jellyfin.gpg
+ Signed-By: /usr/share/keyrings/jellyfin.gpg
   

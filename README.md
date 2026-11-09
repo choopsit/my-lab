@@ -4,7 +4,7 @@
 
 ### install\_desktop.sh
 
-Script installing my destop conf for any PC/VM I use based on debian stable (13/trixie) and sid
+Script installing my desktop configuration for debian stable (13/trixie) and sid
 
 - Default desktop xfce4 (can choose Gnome or KDE but conf are not ready yet for these)
     - Default video-player: Clapper (replacing parole)
@@ -38,4 +38,4 @@ Install servers based on stable (13/trixie)
 
 - base: just basic tools (curl, git, openssh-server, vim) and a minimal vim config
 - jellyfin: web-mediacenter for my lan - https://jellyfin.org/
-
+- xwiki: wiki for documentation and notes shared on my lan - https://www.xwiki.org/

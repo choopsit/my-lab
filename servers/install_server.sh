@@ -88,6 +88,7 @@ fi
 srv_list=(
     "base"
     "jellyfin"
+    "xwiki"
 )
 
 srv_checklist=$(gen_checklist ${srv_list[@]})

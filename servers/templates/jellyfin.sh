@@ -51,8 +51,8 @@ fi
 
 # Add jellyfin repo
 gpgkey_url="https://repo.jellyfin.org/jellyfin_team.gpg.key"
-wget -O- $gpgkey_url | gpg --dearmor --yes --output /etc/apt/keyrings/jellyfin.gpg 
-chmod 644 /etc/apt/keyrings/jellyfin.gpg
+wget -O- $gpgkey_url | gpg --dearmor --yes --output /usr/share/keyrings/jellyfin.gpg
+chmod 644 /usr/share/keyrings/jellyfin.gpg
 
 cp -f "$my_scriptpath/apt/jellyfin.sources" /etc/apt/sources.list.d/
 
