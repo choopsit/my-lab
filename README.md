@@ -11,6 +11,7 @@ Script installing my desktop configuration for debian stable (13/trixie) and sid
     - Default gtk-theme: Colloid-Gruvbox-Dark - https://github.com/vinceliuice/Colloid-gtk-theme
     - Default icon-theme: Gruvbox-Plus-Dark - source: https://github.com/SylEleuth/gruvbox-plus-icon-pack
     - Default curors-theme: Breeze
+    - Accessories: Galculator, Redshift
 - Default terminal-emulator: Terminator
 - Default web-browser: Brave - https://brave.com/
 - Image-editor: Gimp
@@ -34,7 +35,7 @@ Script deploying my cli-tools (included in install\_desktop.sh)
 
 ### install\_server.sh
 
-Install servers based on stable (13/trixie)
+Install servers based on debian stable (13/trixie)
 
 - base: just basic tools (curl, git, openssh-server, vim) and a minimal vim config
 - jellyfin: web-mediacenter for my lan - https://jellyfin.org/
