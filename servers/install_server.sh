@@ -26,7 +26,7 @@ gen_checklist() {
     checklist=()
 
     for choice in $@; do
-        if [[ $choice == "Base" ]]; then
+        if [[ $choice == "base" ]]; then
             checklist+=("$choice" "|" "ON")
         else
             checklist+=("$choice" "|" "OFF")
@@ -94,11 +94,12 @@ srv_list=(
 srv_checklist=$(gen_checklist ${srv_list[@]})
 
 my_server=($(whiptail --separate-output --radiolist "Server" \
-    $((${#desktop_list[@]}+8)) 40 ${#desktop_list[@]} \
-        ${desktop_checklist[@]} 3>&1 1>&2 2>&3))
+    $((${#srv_list[@]}+8)) 40 ${#srv_list[@]} \
+        ${srv_checklist[@]} 3>&1 1>&2 2>&3))
 
 # Here we go !
 install_base
 
 [[ $my_server != "base" ]] && (. "$scriptpath/templates/$my_server.sh")
 
+echo -e "\n\\o/ All done ! Enjoy ! ;)"
