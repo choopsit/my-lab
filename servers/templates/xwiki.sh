@@ -50,11 +50,9 @@ if ! (dpkg -l | grep -q "^ii  gnupg "); then
 fi
 
 # Add xwiki repo
-gpgkey_url="https://repo.xwiki.org/xwiki_team.gpg.key"
-wget https://maven.xwiki.org/xwiki-keyring.gpg -O /usr/share/keyrings/xwiki.gpg
-chmod 644 /etc/apt/keyrings/xwiki.gpg
-
-cp -f "$my_scriptpath/apt/xwiki.sources" /etc/apt/sources.list.d/
+wget "https://maven.xwiki.org/stable/xwiki-stable.list" -O /etc/apt/sources.list.d/xwiki-stable.list
+wget https://maven.xwiki.org/xwiki-keyring.gpg -O /usr/share/keyrings/xwiki-keyring.gpg
+chmod 644 /usr/share/keyrings/xwiki-keyring.gpg
 
 apt update
 

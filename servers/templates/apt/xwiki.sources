@@ -1,6 +1,0 @@
-Types: deb
- URIs: http://maven.xwiki.org
- Suites: stable
- Components: main
- Architectures: amd64
- Signed-By: /usr/share/keyrings/xwiki.gpg
