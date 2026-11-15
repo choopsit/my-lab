@@ -127,7 +127,8 @@ specific_packages(){
     if [[ $my_de == "xfce" ]]; then
         apt install -y \
             bluetooth blueman \
-            slick-greeter gvfs-backends redshift-gtk xfce4-docklike-plugin \
+            slick-greeter gvfs-backends \
+            redshift-gtk xfce4-appmenu-plugin xfce4-docklike-plugin \
             arc-theme papirus-icon-theme breeze-cursor-theme \
             terminator galculator clapper soundconverter sound-juicer \
             supertuxkart

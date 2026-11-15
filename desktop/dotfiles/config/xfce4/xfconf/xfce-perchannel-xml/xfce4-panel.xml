@@ -5,12 +5,10 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <value type="int" value="2"/>
-    <value type="int" value="3"/>
-    <value type="int" value="4"/>
     <property name="dark-mode" type="bool" value="true"/>
     <property name="panel-1" type="empty">
       <property name="position" type="string" value="p=6;x=0;y=0"/>
-      <property name="length" type="double" value="23.958333333333332"/>
+      <property name="length" type="double" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="26"/>
@@ -18,6 +16,16 @@
         <value type="int" value="1"/>
         <value type="int" value="9"/>
         <value type="int" value="4"/>
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
+        <value type="int" value="14"/>
+        <value type="int" value="12"/>
+        <value type="int" value="11"/>
+        <value type="int" value="13"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
@@ -28,55 +36,12 @@
       </property>
     </property>
     <property name="panel-2" type="empty">
-      <property name="position" type="string" value="p=9;x=955;y=14"/>
-      <property name="size" type="uint" value="26"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="3"/>
-        <value type="int" value="14"/>
-        <value type="int" value="15"/>
-        <value type="int" value="8"/>
-        <value type="int" value="16"/>
-        <value type="int" value="13"/>
-        <value type="int" value="5"/>
-      </property>
-      <property name="length" type="double" value="52.1875"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="1"/>
-      <property name="background-rgba" type="array">
-        <value type="double" value="0.16333333333333333"/>
-        <value type="double" value="0.14312355555555556"/>
-        <value type="double" value="0.13175555555555557"/>
-        <value type="double" value="0.62080536912751683"/>
-      </property>
-    </property>
-    <property name="panel-3" type="empty">
-      <property name="position" type="string" value="p=2;x=1685;y=14"/>
-      <property name="size" type="uint" value="26"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="7"/>
-        <value type="int" value="6"/>
-        <value type="int" value="12"/>
-        <value type="int" value="11"/>
-        <value type="int" value="10"/>
-      </property>
-      <property name="length" type="double" value="23.958333333333332"/>
-      <property name="position-locked" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="1"/>
-      <property name="background-rgba" type="array">
-        <value type="double" value="0.16333333333333333"/>
-        <value type="double" value="0.14312355555555556"/>
-        <value type="double" value="0.13175555555555557"/>
-        <value type="double" value="0.62080536912751683"/>
-      </property>
-    </property>
-    <property name="panel-4" type="empty">
-      <property name="position" type="string" value="p=10;x=968;y=1028"/>
+      <property name="position" type="string" value="p=12;x=981;y=1055"/>
       <property name="size" type="uint" value="96"/>
-      <property name="length" type="double" value="3.3333333333333335"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="2"/>
       </property>
-      <property name="icon-size" type="uint" value="0"/>
+      <property name="position-locked" type="bool" value="true"/>
       <property name="background-style" type="uint" value="1"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.21344444444444446"/>
@@ -84,8 +49,8 @@
         <value type="double" value="0.28333333333333333"/>
         <value type="double" value="0"/>
       </property>
-      <property name="position-locked" type="bool" value="true"/>
       <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="enable-struts" type="bool" value="false"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -117,10 +82,12 @@
       <property name="expand" type="bool" value="true"/>
     </property>
     <property name="plugin-8" type="string" value="clock">
-      <property name="digital-layout" type="uint" value="2"/>
+      <property name="digital-layout" type="uint" value="3"/>
       <property name="digital-date-font" type="string" value="Sans Bold 9"/>
-      <property name="tooltip-format" type="string" value="%a, %d %b - %R"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
       <property name="digital-date-format" type="string" value="%a, %d %b - %R"/>
+      <property name="digital-time-font" type="string" value="Sans Bold 10"/>
+      <property name="digital-time-format" type="string" value="- %R"/>
     </property>
     <property name="plugin-10" type="string" value="actions">
       <property name="button-title" type="uint" value="3"/>
@@ -167,30 +134,25 @@
       </property>
       <property name="round" type="bool" value="true"/>
       <property name="single-row" type="bool" value="true"/>
-      <property name="tooltip-style" type="int" value="1"/>
+      <property name="tooltip-style" type="int" value="0"/>
       <property name="forecast" type="empty">
         <property name="layout" type="int" value="1"/>
         <property name="days" type="int" value="5"/>
       </property>
-      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/simplistic"/>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
       <property name="scrollbox" type="empty">
         <property name="show" type="bool" value="true"/>
         <property name="animate" type="bool" value="true"/>
         <property name="lines" type="int" value="1"/>
-        <property name="color" type="string" value="rgba(0,0,0,0)"/>
-        <property name="use-color" type="bool" value="false"/>
+        <property name="color" type="string" value="rgb(222,221,218)"/>
+        <property name="use-color" type="bool" value="true"/>
+        <property name="font" type="string" value="Sans 10"/>
       </property>
       <property name="labels" type="empty">
         <property name="label0" type="int" value="3"/>
       </property>
     </property>
     <property name="plugin-14" type="string" value="notification-plugin"/>
-    <property name="plugin-15" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-16" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
     <property name="plugin-1" type="string" value="whiskermenu">
       <property name="menu-width" type="int" value="840"/>
       <property name="menu-height" type="int" value="650"/>
@@ -209,8 +171,9 @@
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="menu-opacity" type="int" value="85"/>
       <property name="recent" type="array">
-        <value type="string" value="redshift-gtk.desktop"/>
         <value type="string" value="gimp.desktop"/>
+        <value type="string" value="libreoffice-writer.desktop"/>
+        <value type="string" value="redshift-gtk.desktop"/>
         <value type="string" value="org.xfce.mousepad.desktop"/>
         <value type="string" value="xfburn.desktop"/>
         <value type="string" value="xfce4-sensors.desktop"/>
@@ -218,25 +181,28 @@
         <value type="string" value="steam.desktop"/>
         <value type="string" value="brave-browser.desktop"/>
         <value type="string" value="xfce4-taskmanager.desktop"/>
-        <value type="string" value="htop.desktop"/>
       </property>
       <property name="hover-switch-category" type="bool" value="true"/>
     </property>
     <property name="plugin-2" type="string" value="docklike"/>
-    <property name="plugin-3" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-      <property name="expand" type="bool" value="true"/>
-    </property>
-    <property name="plugin-5" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-      <property name="expand" type="bool" value="true"/>
-    </property>
     <property name="plugin-9" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="notes" type="empty">
       <property name="global" type="empty">
         <property name="version" type="string" value="1.12.0"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+    </property>
+    <property name="plugin-16" type="string" value="appmenu">
+      <property name="plugins" type="empty">
+        <property name="plugin-16" type="empty">
+          <property name="expand" type="bool" value="true"/>
+          <property name="bold-application-name" type="bool" value="true"/>
+          <property name="compact-mode" type="bool" value="true"/>
+        </property>
       </property>
     </property>
   </property>

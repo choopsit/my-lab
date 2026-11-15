@@ -63,6 +63,7 @@
       <property name="&lt;Super&gt;m" type="string" value="quodlibet"/>
       <property name="HomePage" type="string" value="exo-open --launch WebBrowser"/>
       <property name="Explorer" type="string" value="thunar"/>
+      <property name="&lt;Super&gt;s" type="string" value="/usr/games/steam"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
